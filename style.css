@@ -12,3 +12,41 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin: .625rem 0;
+    width: 12.5rem;
+}
+
+.toggle {
+    visibility: hidden;
+}
+
+.label {
+    position: relative;
+    background-color: #d0d0d8;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 .938rem 0;
+    width:5rem;
+    height: 2.5rem;
+}
+
+.toggle:checked + .label {
+    background-color: #8e44ad;
+}
+
+.ball {
+    background: #fff;
+    height: 2.125rem;
+    width: 2.125rem;
+    border-radius: 50%;
+    position: absolute;
+    top: .19rem;
+    left: .19rem;
+    align-items: center;
+    justify-content: center;
+}
