@@ -53,7 +53,7 @@ body{
 }
 
 .toggle:checked + .label .ball{
-    animation: slideOn .3 linear forwards;
+    animation: slideOn .3s linear forwards;
 }
 
 @keyframes slideOn {
